@@ -1,13 +1,57 @@
 <!-- Hero Header -->
-<div align="center" style="background-color:#000000; padding: 40px 0; margin: 0; width: 100%;">
+<div style="
+  background-color:#000000;
+  padding: 50px 0;
+  margin: 0;
+  width: 100%;
+">
 
-  <!-- Typing Title -->
-  <p align="center">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=2800&pause=800&color=00FF41&background=000000&center=true&vCenter=true&width=650&lines=Hi+%F0%9F%91%8B%2C+I'm+Seth+Ogieva;Technical+Product+%26+GTM+Leader;AI-Driven+Product+%26+Growth;Based+in+Raleigh+NC+%26+Brussels+Belgium" alt="Typing SVG" />
+  <!-- Typing Title (left aligned but centered container) -->
+  <div style="max-width: 900px; margin: 0 auto; text-align: left; padding-left: 20px;">
+
+  <p>
+    <img 
+      src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=34&duration=2800&pause=800&color=00FF41&background=000000&width=750&lines=Hi+%F0%9F%91%8B%2C+I'm+Seth+Ogieva;Technical+Product+%26+GTM+Leader;AI-Driven+Product+%26+Growth;Based+in+Raleigh+NC+%26+Brussels+Belgium"
+      alt="Typing SVG"
+    />
   </p>
 
   <!-- Tagline -->
-  <p align="center" style="color:#00FF41; max-width: 720px; margin: 0 auto 18px auto;">
+  <p style="color:#00FF41; font-size: 18px; line-height: 1.6; max-width: 750px;">
+    <em>I speak fluent Business, AI & ML — and I specialize in herding engineers, calming marketers, and launching products without setting anything on fire.</em>
+  </p>
+
+  <!-- Buttons -->
+  <p style="margin-top: 25px;">
+    <a href="https://sethogieva.com" target="_blank" style="
+      display:inline-block;
+      padding:12px 24px;
+      margin-right:10px;
+      border-radius:999px;
+      background-color:#00FF41;
+      color:#000000;
+      text-decoration:none;
+      font-weight:600;
+      font-size: 15px;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    ">🌐 Personal Site</a>
+
+    <a href="https://somethingelsegroup.com" target="_blank" style="
+      display:inline-block;
+      padding:12px 24px;
+      border-radius:999px;
+      border:2px solid #00FF41;
+      color:#00FF41;
+      text-decoration:none;
+      font-weight:600;
+      font-size: 15px;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    ">🚀 Digital Solutions Agency</a>
+  </p>
+
+  </div>
+</div>
+
     <em>I speak fluent Business, AI &amp; ML — and I specialize in herding engineers, calming marketers, and launching products without setting anything on fire.</em>
   </p>
 
