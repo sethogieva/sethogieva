@@ -82,7 +82,6 @@
 ---
 
 ### 🐍 Snake on My Profile
-
 <p align="center">
-  <img src="https://github.com/sethogieva/sethogieva/blob/output/github-contribution-grid-snake.svg" alt="snake animation" />
+  <img src="https://raw.githubusercontent.com/sethogieva/sethogieva/output/snake.svg" />
 </p>
