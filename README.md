@@ -1,93 +1,58 @@
-<!-- Full Black Background Wrapper -->
-<div style="background-color:#000000; color:#00FF41; padding:0; margin:0; width:100%;">
+<!-- Hero Header -->
+<div align="center" style="background-color:#000000; padding: 40px 0; margin: 0; width: 100%;">
 
-<!-- Hero / Typing Title -->
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=2800&pause=800&color=00FF41&background=000000&center=true&vCenter=true&width=650&lines=Hi+%F0%9F%91%8B%2C+I'm+Seth+Ogieva;Technical+Product+%26+GTM+Leader;AI-Driven+Product+%26+Growth;Based+in+Raleigh+NC+%26+Brussels+Belgium" alt="Typing SVG" />
-</p>
+  <!-- Typing Title -->
+  <p align="center">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=2800&pause=800&color=00FF41&background=000000&center=true&vCenter=true&width=650&lines=Hi+%F0%9F%91%8B%2C+I'm+Seth+Ogieva;Technical+Product+%26+GTM+Leader;AI-Driven+Product+%26+Growth;Based+in+Raleigh+NC+%26+Brussels+Belgium" alt="Typing SVG" />
+  </p>
 
-<p align="center" style="color:#00FF41;">
-  <em>I speak fluent Business, AI & ML — and I specialize in herding engineers, calming marketers, and launching products without setting anything on fire.</em>
-</p>
+  <!-- Tagline -->
+  <p align="center" style="color:#00FF41; max-width: 720px; margin: 0 auto 18px auto;">
+    <em>I speak fluent Business, AI &amp; ML — and I specialize in herding engineers, calming marketers, and launching products without setting anything on fire.</em>
+  </p>
+
+  <!-- Buttons -->
+  <p align="center" style="margin-top: 18px;">
+    <a href="https://sethogieva.com" target="_blank" style="
+      display:inline-block;
+      padding:10px 20px;
+      margin:4px;
+      border-radius:999px;
+      background-color:#00FF41;
+      color:#000000;
+      text-decoration:none;
+      font-weight:600;
+      font-family:system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+    ">
+      🌐 Personal Site
+    </a>
+    <a href="https://somethingelsegroup.com" target="_blank" style="
+      display:inline-block;
+      padding:10px 20px;
+      margin:4px;
+      border-radius:999px;
+      border:1px solid #00FF41;
+      color:#00FF41;
+      text-decoration:none;
+      font-weight:600;
+      font-family:system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+    ">
+      🚀 Digital Solutions Agency
+    </a>
+  </p>
+
+</div>
 
 ---
 
 ### 🧠 About Me
 
 - 🔭 I’m currently working on **[Mingla](https://mingla.app/)** — an AI-powered social planning app.
-- 🌱 I’m currently learning **TensorFlow, PyTorch, Pandas & Scikit-learn**
+- 🌱 I’m currently learning **TensorFlow, PyTorch, Pandas &amp; Scikit-learn**
 - 👯 I’m looking to collaborate on **AI-driven product ideas, early-stage SaaS, and growth experiments**  
 - 👨‍💻 All of my projects are available at **[sethogieva.com](https://sethogieva.com/)**
 - 📝 I regularly write articles on **[Medium](https://medium.com/@ogievaseth)**
-- 💬 Ask me about **Product Management, Product Marketing, Growth, & GTM**
+- 💬 Ask me about **Product Management, Product Marketing, Growth, &amp; GTM**
 - 📫 How to reach me: **sethogieva@gmail.com**
 - 📄 Know about my experience: **[Credentials](https://sethogieva.com/credentials/)**
-- ⚡ Fun fact: **Master-level Chess Player (+2000 FIDE), Gamer (COD & FC)**
-
----
-
-### 🌐 Connect with Me
-
-<p align="center">
-  <a href="https://linkedin.com/in/ogievaseth" target="_blank">
-    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn - ogievaseth" height="30" width="40" />
-  </a>
-  <a href="https://medium.com/@ogievaseth" target="_blank">
-    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/medium.svg" alt="Medium - @ogievaseth" height="30" width="40" />
-  </a>
-</p>
-
----
-
-### 🛠️ Languages & Tools
-
-<p align="center">
-  <a href="https://www.typescriptlang.org/" target="_blank">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" width="40" height="40"/>
-  </a>
-  <a href="https://reactjs.org/" target="_blank">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" width="40" height="40"/>
-  </a>
-  <a href="https://www.python.org" target="_blank">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="40" height="40"/>
-  </a>
-  <a href="https://pandas.pydata.org/" target="_blank">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pandas/pandas-original.svg" width="40" height="40"/>
-  </a>
-  <a href="https://pytorch.org/" target="_blank">
-    <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" width="40" height="40"/>
-  </a>
-  <a href="https://www.tensorflow.org" target="_blank">
-    <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" width="40" height="40"/>
-  </a>
-  <a href="https://www.postgresql.org" target="_blank">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" width="40" height="40"/>
-  </a>
-  <a href="https://www.figma.com/" target="_blank">
-    <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" width="40" height="40"/>
-  </a>
-  <a href="https://zapier.com" target="_blank">
-    <img src="https://www.vectorlogo.zone/logos/zapier/zapier-icon.svg" width="40" height="40"/>
-  </a>
-  <a href="https://git-scm.com/" target="_blank">
-    <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" width="40" height="40"/>
-  </a>
-</p>
-
----
-
-### 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=sethogieva&show_icons=true&bg_color=000000&title_color=00FF41&text_color=00FF41&icon_color=00FF41&border_color=00FF41" />
-</p>
-
----
-
-### 🐍 Snake on My Profile
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/sethogieva/sethogieva/output/snake.svg" />
-</p>
-
-</div> <!-- End Full Black Background Wrapper -->
+- ⚡ Fun fact: **Master-level Chess Player (+2000 FIDE), Gamer (COD &amp; FC)**
