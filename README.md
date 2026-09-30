@@ -74,12 +74,10 @@ const seth = {
 
 ### Writing
 
-<!-- BLOG-POST-LIST:START -->- [From Token Costs to ROI](https://medium.com/@ogievaseth/from-token-costs-to-roi-eb9c23855326?source=rss-c2478155f6f3------2) <sub>· Jan 2026</sub>
-- [Who I Help, What I Do, and Why It’s Different](https://medium.com/@ogievaseth/who-i-help-what-i-do-and-why-its-different-77f8995eec70?source=rss-c2478155f6f3------2) <sub>· Jul 2025</sub>
-- [Pioneering Product Marketing for ILIAS Defense Suite: Driving Growth and Innovation](https://medium.com/@ogievaseth/pioneering-product-marketing-for-ilias-defense-suite-driving-growth-and-innovation-c22c2f56ac42?source=rss-c2478155f6f3------2) <sub>· Mar 2025</sub>
-- [The One-Man Agency: How I Bring a Marketing Dream Team to Drive B2B SaaS Growth](https://medium.com/@ogievaseth/the-one-man-agency-how-i-bring-a-marketing-dream-team-to-drive-b2b-saas-growth-f278defab530?source=rss-c2478155f6f3------2) <sub>· Dec 2024</sub>
-- [Facing the Market: Where do we go from here?](https://medium.com/@ogievaseth/facing-the-market-where-do-we-go-from-here-b275462d6783?source=rss-c2478155f6f3------2) <sub>· Feb 2023</sub>
+<ul>
+<!-- BLOG-POST-LIST:START -->
 <!-- BLOG-POST-LIST:END -->
+</ul>
 
 ➜ [All essays on Medium](https://medium.com/@ogievaseth)
 
