@@ -33,7 +33,7 @@ const seth = {
 
 ### What I'm building
 
-| | |
+| Project | What it is |
 |---|---|
 | **[Mingla](https://sethogieva.com/work/mingla)** | The decision & commerce layer for real-world experiences. A consumer app that turns *“what should we do?”* into an agreed plan, and a business app that helps venues get discovered, booked and paid. Two production apps, live payments in three markets. |
 | **[The AI-native delivery pipeline](https://sethogieva.com/work/ai-native-delivery)** | Six specialised agents — orchestrator, forensics, designer, implementor, tester, product — running a gated pipeline. A lean team shipping at full-squad velocity. Packaged as a transferable Engineering Blueprint. |
@@ -41,33 +41,7 @@ const seth = {
 
 ### How I ship
 
-```mermaid
-flowchart LR
-    I([Intake]) --> V[Investigate]
-    V --> S[Spec]
-    S --> D[Design]
-    D --> B[Implement]
-    B --> T{Test}
-    T -- fail --> B
-    T -- pass --> G{{Human gate}}
-    G --> C([Close & merge])
-
-    subgraph Agents
-      direction TB
-      O[Orchestrator] -.owns board.-> I
-      F[Forensics] -.-> V & S
-      X[Designer] -.-> D
-      M[Implementor] -.-> B
-      Q[Tester] -.adversarial QA.-> T
-    end
-
-    C -. MCP .-> E[(Supabase · Stripe · PostHog · Sentry · ClickUp · AppsFlyer · Meta/TikTok Ads)]
-
-    classDef gold fill:#E0A82E,stroke:#E0A82E,color:#141414;
-    classDef dark fill:#151518,stroke:#3a3a40,color:#f5f5f5;
-    class G,C gold;
-    class I,V,S,D,B,T,O,F,X,M,Q,E dark;
-```
+<img src="./assets/pipeline.svg" alt="AI-native delivery pipeline" width="100%" />
 
 **Rules the pipeline enforces:** the board is the single source of truth · worktree per work item · every fix ships with a test that fails when the fix is reverted · never merge on red · no fabricated data.
 
