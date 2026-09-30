@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-label="Seth Ogieva — Senior Product Leader @ Mingla">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0c0c0e"/>
+      <stop offset="1" stop-color="#151518"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.85" cy="0.1" r="0.7">
+      <stop offset="0" stop-color="#E0A82E" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#E0A82E" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="0" x2="1">
+      <stop offset="0" stop-color="#F3CF7A"/>
+      <stop offset="0.5" stop-color="#E0A82E"/>
+      <stop offset="1" stop-color="#B9831C"/>
+    </linearGradient>
+    <linearGradient id="sweep" x1="0" x2="1">
+      <stop offset="0" stop-color="#E0A82E" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#E0A82E" stop-opacity="1"/>
+      <stop offset="1" stop-color="#E0A82E" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity="0.035"/>
+    </pattern>
+    <style>
+      .t{font-family:'Inter','Segoe UI',Helvetica,Arial,sans-serif}
+      .name{font-size:64px;font-weight:600;letter-spacing:-2.5px;fill:#fff}
+      .role{font-size:24px;font-weight:500;fill:url(#gold)}
+      .line{font-size:18px;fill:#a8a8ae}
+      .chip{font-size:14px;font-weight:600;letter-spacing:1.5px;fill:#E0A82E}
+      .mono{font-family:'JetBrains Mono','SFMono-Regular',Menlo,monospace;font-size:13px;fill:#6f6f76}
+      .fade{opacity:0;animation:in .9s ease forwards}
+      .d1{animation-delay:.15s}.d2{animation-delay:.35s}.d3{animation-delay:.55s}.d4{animation-delay:.75s}
+      @keyframes in{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+      .scan{animation:scan 5s linear infinite}
+      @keyframes scan{from{transform:translateX(-600px)}to{transform:translateX(1300px)}}
+      .pulse{animation:pulse 2.4s ease-in-out infinite;transform-origin:center;transform-box:fill-box}
+      @keyframes pulse{0%,100%{opacity:1}50%{opacity:.25}}
+      .node{animation:node 3s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+      .n2{animation-delay:.4s}.n3{animation-delay:.8s}.n4{animation-delay:1.2s}.n5{animation-delay:1.6s}.n6{animation-delay:2s}.n7{animation-delay:2.4s}
+      @keyframes node{0%,100%{fill:#2a2a2f}40%{fill:#E0A82E}}
+    </style>
+  </defs>
+  <rect width="1200" height="340" rx="24" fill="url(#bg)"/>
+  <rect width="1200" height="340" rx="24" fill="url(#grid)"/>
+  <rect width="1200" height="340" rx="24" fill="url(#glow)"/>
+  <rect x="0.5" y="0.5" width="1199" height="339" rx="23.5" fill="none" stroke="#E0A82E" stroke-opacity="0.35"/>
+
+  <g class="t">
+    <g class="fade d1">
+      <rect x="64" y="56" width="248" height="32" rx="16" fill="#E0A82E" fill-opacity="0.1" stroke="#E0A82E" stroke-opacity="0.5"/>
+      <circle class="pulse" cx="84" cy="72" r="5" fill="#E0A82E"/>
+      <text x="98" y="77" class="chip">SHIPPING AT MINGLA</text>
+    </g>
+    <text x="62" y="160" class="name fade d2">Seth Ogieva</text>
+    <text x="64" y="202" class="role fade d3">Senior Product Leader @ Mingla</text>
+    <text x="64" y="240" class="line fade d4">AI products from zero to market — and the AI-native team that ships them.</text>
+    <text x="64" y="292" class="mono fade d4">~/raleigh-nc · ~/brussels-be   ·   sethogieva.com</text>
+  </g>
+
+  <!-- the pipeline, abstracted: 7 phases lighting up in sequence -->
+  <g transform="translate(840 150)">
+    <path d="M0 40 H290" stroke="#2a2a2f" stroke-width="2"/>
+    <circle class="node" cx="0" cy="40" r="9"/>
+    <circle class="node n2" cx="48" cy="40" r="9"/>
+    <circle class="node n3" cx="96" cy="40" r="9"/>
+    <circle class="node n4" cx="145" cy="40" r="9"/>
+    <circle class="node n5" cx="193" cy="40" r="9"/>
+    <circle class="node n6" cx="241" cy="40" r="9"/>
+    <circle class="node n7" cx="290" cy="40" r="9"/>
+    <text class="mono" x="-8" y="78">intake → investigate → spec → design</text>
+    <text class="mono" x="-8" y="98">→ implement → test → close</text>
+    <text class="mono" x="-8" y="10" fill="#E0A82E">// ai-native delivery pipeline</text>
+  </g>
+
+  <rect class="scan" x="0" y="338" width="400" height="2" fill="url(#sweep)"/>
+</svg>

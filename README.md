@@ -1,100 +1,122 @@
-<!-- ============================= -->
-<!--     SNAKE ANIMATION AT TOP     -->
-<!-- ============================= -->
+<a href="https://sethogieva.com">
+  <img src="./assets/header.svg" alt="Seth Ogieva — Senior Product Leader @ Mingla" width="100%" />
+</a>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/sethogieva/sethogieva/output/snake.svg" alt="Snake animation" width="100%" />
+  <a href="https://sethogieva.com"><img src="https://img.shields.io/badge/sethogieva.com-0F0F10?style=for-the-badge&logo=vercel&logoColor=E0A82E" alt="Website" /></a>
+  <a href="https://www.linkedin.com/in/ogievaseth/"><img src="https://img.shields.io/badge/LinkedIn-0F0F10?style=for-the-badge&logo=linkedin&logoColor=E0A82E" alt="LinkedIn" /></a>
+  <a href="https://medium.com/@ogievaseth"><img src="https://img.shields.io/badge/Medium-0F0F10?style=for-the-badge&logo=medium&logoColor=E0A82E" alt="Medium" /></a>
+  <a href="https://somethingelse.live"><img src="https://img.shields.io/badge/Somethingelse-0F0F10?style=for-the-badge&logo=starship&logoColor=E0A82E" alt="Somethingelse" /></a>
+  <a href="https://ratings.fide.com/profile/8509182"><img src="https://img.shields.io/badge/FIDE_blitz_1974-0F0F10?style=for-the-badge&logo=chessdotcom&logoColor=E0A82E" alt="FIDE" /></a>
 </p>
 
-<!-- ============================= -->
-<!--   FULL-WIDTH BLACK BANNER     -->
-<!-- ============================= -->
+---
 
-<div align="center" style="background:#000; width:100vw; position:relative; left:50%; right:50%; margin-left:-50vw; margin-right:-50vw; padding:60px 30px; border-top:3px solid #00FF41; border-bottom:3px solid #00FF41;">
+### `whoami`
 
-<!-- Typing Animation -->
-<img 
-  src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=36&duration=2800&pause=800&color=00FF41&center=true&vCenter=true&width=900&lines=Hi+%F0%9F%91%8B%2C+I'm+Seth+Ogieva;Technical+Product+%26+GTM+Leader;AI-Driven+Product+Builder+%26+Growth;Based+in+Raleigh+NC+%26+Brussels+Belgium"
-  alt="Typing animation"
-  width="900"
-/>
+I take **AI products from zero to market** — and run the **AI-native team** that ships them.
 
-<!-- Tagline -->
-<p style="color:#00FF41; font-size:18px; line-height:1.8; max-width:850px; margin:30px auto 40px; font-style:italic; letter-spacing:0.5px;">
-  I speak fluent Business, AI & ML — and I specialize in herding engineers, calming marketers, and launching products without setting anything on fire.
+Engineer by training, product leader by trade, go-to-market by instinct. 8+ years across AI/ML, SaaS, B2C, B2B and B2G — from a $30M construction ops portal to defence-grade enterprise software to a 0→1 consumer AI app.
+
+```ts
+const seth = {
+  role:      "Senior Product Leader @ Mingla",
+  shipping:  ["Mingla Explorer (iOS + Android)", "Mingla Host (iOS + Android)"],
+  markets:   ["UK", "US", "Nigeria"],
+  payments:  ["Stripe", "Paystack"],
+  operating: "multi-agent delivery on Claude Code + MCP, humans at every gate",
+  owns:      ["roadmap", "specs & data models", "in-product adoption", "GTM", "growth"],
+  basedIn:   ["Raleigh, NC", "Brussels, BE"],
+  offClock:  { chess: "FIDE blitz peak 1974", travel: "41 cities, 18 countries" },
+};
+```
+
+### What I'm building
+
+| | |
+|---|---|
+| **[Mingla](https://sethogieva.com/work/mingla)** | The decision & commerce layer for real-world experiences. A consumer app that turns *“what should we do?”* into an agreed plan, and a business app that helps venues get discovered, booked and paid. Two production apps, live payments in three markets. |
+| **[The AI-native delivery pipeline](https://sethogieva.com/work/ai-native-delivery)** | Six specialised agents — orchestrator, forensics, designer, implementor, tester, product — running a gated pipeline. A lean team shipping at full-squad velocity. Packaged as a transferable Engineering Blueprint. |
+| **[Somethingelse](https://somethingelse.live)** | My embedded product & growth studio. Migrating client businesses from legacy WordPress to modern Next.js + Vercel stacks — commerce, bookings and CMS — through the same pipeline. |
+
+### How I ship
+
+```mermaid
+flowchart LR
+    I([Intake]) --> V[Investigate]
+    V --> S[Spec]
+    S --> D[Design]
+    D --> B[Implement]
+    B --> T{Test}
+    T -- fail --> B
+    T -- pass --> G{{Human gate}}
+    G --> C([Close & merge])
+
+    subgraph Agents
+      direction TB
+      O[Orchestrator] -.owns board.-> I
+      F[Forensics] -.-> V & S
+      X[Designer] -.-> D
+      M[Implementor] -.-> B
+      Q[Tester] -.adversarial QA.-> T
+    end
+
+    C -. MCP .-> E[(Supabase · Stripe · PostHog · Sentry · ClickUp · AppsFlyer · Meta/TikTok Ads)]
+
+    classDef gold fill:#E0A82E,stroke:#E0A82E,color:#141414;
+    classDef dark fill:#151518,stroke:#3a3a40,color:#f5f5f5;
+    class G,C gold;
+    class I,V,S,D,B,T,O,F,X,M,Q,E dark;
+```
+
+**Rules the pipeline enforces:** the board is the single source of truth · worktree per work item · every fix ships with a test that fails when the fix is reverted · never merge on red · no fabricated data.
+
+### Track record
+
+| Where | What moved |
+|---|---|
+| **Mingla** · 2025 → | 0→1 roadmap, 2 production apps, live Stripe + Paystack in UK/US/NG, ~20% faster feature turnaround |
+| **ILIAS Solutions** · 2022–24 | Owned product marketing *inside* the product — adoption screens, coachmarks, in-app guidance — plus GTM: **+35% pipeline, −25% sales cycle, +40% enablement usage** |
+| **Blue Orb** · 2024–25 | Product narrative behind a **$12M raise**; real-time funnel analytics |
+| **Somethingelse** · 2020–22 | Growth for NATO & EU Green Deal programmes (**+45% participation**) and Niyo brands (**+35% acquisition**) |
+| **Costain West Africa** · 2017–20 | Site inventory & ops portal across **$30M programmes**, 18% faster delivery |
+
+### Stack
+
+<p>
+  <img src="https://skillicons.dev/icons?i=ts,react,nextjs,nodejs,python,postgres,supabase,vercel,githubactions,figma&theme=dark" alt="stack" />
+</p>
+<p>
+  <img src="https://img.shields.io/badge/Claude_Code-151518?style=flat-square&logo=anthropic&logoColor=E0A82E" alt="Claude Code" />
+  <img src="https://img.shields.io/badge/MCP-151518?style=flat-square&logo=anthropic&logoColor=E0A82E" alt="MCP" />
+  <img src="https://img.shields.io/badge/OpenAI_API-151518?style=flat-square&logo=openai&logoColor=E0A82E" alt="OpenAI" />
+  <img src="https://img.shields.io/badge/React_Native_·_Expo-151518?style=flat-square&logo=expo&logoColor=E0A82E" alt="Expo" />
+  <img src="https://img.shields.io/badge/Stripe-151518?style=flat-square&logo=stripe&logoColor=E0A82E" alt="Stripe" />
+  <img src="https://img.shields.io/badge/PostHog-151518?style=flat-square&logo=posthog&logoColor=E0A82E" alt="PostHog" />
+  <img src="https://img.shields.io/badge/Sentry-151518?style=flat-square&logo=sentry&logoColor=E0A82E" alt="Sentry" />
+  <img src="https://img.shields.io/badge/Mixpanel-151518?style=flat-square&logo=mixpanel&logoColor=E0A82E" alt="Mixpanel" />
+  <img src="https://img.shields.io/badge/GA4-151518?style=flat-square&logo=googleanalytics&logoColor=E0A82E" alt="GA4" />
 </p>
 
-<!-- Action Buttons -->
-<div style="display:flex; gap:16px; justify-content:center; flex-wrap:wrap; margin-top:30px;">
-  <a href="https://sethogieva.com" style="display:inline-block; padding:16px 32px; margin:8px; border-radius:6px; background:#00FF41; color:#000; text-decoration:none; font-weight:800; font-size:16px; font-family:system-ui,-apple-system,sans-serif; transition:all 0.3s ease; box-shadow:0 4px 15px rgba(0,255,65,0.3); border:2px solid #00FF41; cursor:pointer;">🌐 Personal Site</a>
-  <a href="https://somethingelsegroup.com" style="display:inline-block; padding:16px 32px; margin:8px; border-radius:6px; background:transparent; color:#00FF41; text-decoration:none; font-weight:800; font-size:16px; font-family:system-ui,-apple-system,sans-serif; border:2px solid #00FF41; transition:all 0.3s ease; box-shadow:0 4px 15px rgba(0,255,65,0.2); cursor:pointer;">🚀 Digital Solutions Agency</a>
-</div>
+### Writing
 
-</div>
+<!-- BLOG-POST-LIST:START -->
+<!-- BLOG-POST-LIST:END -->
 
+➜ [All essays on Medium](https://medium.com/@ogievaseth)
 
-<!-- ============================= -->
-<!--          ABOUT ME             -->
-<!-- ============================= -->
+### Activity
 
-## 🧠 About Me
+<p>
+  <img src="https://github-readme-stats.vercel.app/api?username=sethogieva&show_icons=true&count_private=true&include_all_commits=true&hide_border=true&bg_color=0F0F10&title_color=E0A82E&text_color=C9C9CF&icon_color=E0A82E&hide_title=false&custom_title=Shipping%20log" height="165" alt="stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sethogieva&layout=compact&hide_border=true&bg_color=0F0F10&title_color=E0A82E&text_color=C9C9CF&langs_count=6" height="165" alt="languages" />
+</p>
 
-<div style="background:linear-gradient(135deg, #1a1a1a 0%, #0d0d0d 100%); border-left:4px solid #00FF41; padding:20px; margin:20px 0; border-radius:8px;">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sethogieva/sethogieva/output/snake-dark.svg" />
+  <img src="https://raw.githubusercontent.com/sethogieva/sethogieva/output/snake.svg" alt="contribution snake" width="100%" />
+</picture>
 
-- 🔭 Currently building **[Mingla](https://mingla.app/)** — an AI-powered social planning app revolutionizing how we plan together  
-- 🌱 Mastering **TensorFlow, PyTorch, Pandas & Scikit-learn** for next-gen AI solutions  
-- 👯 Open to collaborating on **AI-driven products, early-stage SaaS, and growth experiments**  
-- 👨‍💻 Full project portfolio: **[sethogieva.com](https://sethogieva.com)**  
-- 📝 Regular contributor: **[Medium](https://medium.com/@ogievaseth)**  
-- 💬 Expertise: **Product Management, GTM Strategy, Growth Engineering & AI/ML**  
-- 📫 Let's connect: **sethogieva@gmail.com**  
-- 📄 Check credentials: **[Experience & Background](https://sethogieva.com/credentials/)**  
-- ⚡ Fun fact: **Master Chess Player (2000+ FIDE), competitive COD & FC gamer**  
-
-</div>
-
-
----
-
-## 🌐 Connect & Follow
-
-<div style="display:flex; gap:20px; align-items:center; padding:20px; background:#000; border:2px solid #00FF41; border-radius:8px; justify-content:center; flex-wrap:wrap;">
-  <a href="https://linkedin.com/in/ogievaseth" target="_blank" style="text-decoration:none; transition:all 0.3s;">
-    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" height="40" width="50" style="filter:brightness(0) saturate(100%) invert(1); transition:all 0.3s;" />
-  </a>
-  <a href="https://medium.com/@ogievaseth" target="_blank" style="text-decoration:none; transition:all 0.3s;">
-    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/medium.svg" height="40" width="50" style="filter:brightness(0) saturate(100%) invert(1); transition:all 0.3s;" />
-  </a>
-  <a href="https://twitter.com" target="_blank" style="text-decoration:none; color:#00FF41; font-weight:bold; font-size:18px; transition:all 0.3s;" onmouseover="this.style.transform='scale(1.2)'" onmouseout="this.style.transform='scale(1)'">𝕏</a>
-</div>
-
----
-
-## 🛠️ Tech Stack & Tools
-
-<div style="background:linear-gradient(135deg, #1a1a1a 0%, #0d0d0d 100%); padding:30px; border-radius:8px; border:1px solid #00FF41;">
-
-<p style="text-align:center; color:#00FF41; font-weight:bold; margin-bottom:20px; font-size:18px;">Languages • Frameworks • Platforms</p>
-
-<div style="display:flex; flex-wrap:wrap; gap:15px; justify-content:center;">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" width="50" style="transition:all 0.3s;" onmouseover="this.style.transform='scale(1.2) rotate(5deg)'" onmouseout="this.style.transform='scale(1) rotate(0)'" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" width="50" style="transition:all 0.3s;" onmouseover="this.style.transform='scale(1.2) rotate(5deg)'" onmouseout="this.style.transform='scale(1) rotate(0)'" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="50" style="transition:all 0.3s;" onmouseover="this.style.transform='scale(1.2) rotate(5deg)'" onmouseout="this.style.transform='scale(1) rotate(0)'" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pandas/pandas-original.svg" width="50" style="transition:all 0.3s;" onmouseover="this.style.transform='scale(1.2) rotate(5deg)'" onmouseout="this.style.transform='scale(1) rotate(0)'" />
-  <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" width="50" style="transition:all 0.3s;" onmouseover="this.style.transform='scale(1.2) rotate(5deg)'" onmouseout="this.style.transform='scale(1) rotate(0)'" />
-  <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" width="50" style="transition:all 0.3s;" onmouseover="this.style.transform='scale(1.2) rotate(5deg)'" onmouseout="this.style.transform='scale(1) rotate(0)'" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" width="50" style="transition:all 0.3s;" onmouseover="this.style.transform='scale(1.2) rotate(5deg)'" onmouseout="this.style.transform='scale(1) rotate(0)'" />
-  <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" width="50" style="transition:all 0.3s;" onmouseover="this.style.transform='scale(1.2) rotate(5deg)'" onmouseout="this.style.transform='scale(1) rotate(0)'" />
-  <img src="https://www.vectorlogo.zone/logos/zapier/zapier-icon.svg" width="50" style="transition:all 0.3s;" onmouseover="this.style.transform='scale(1.2) rotate(5deg)'" onmouseout="this.style.transform='scale(1) rotate(0)'" />
-  <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" width="50" style="transition:all 0.3s;" onmouseover="this.style.transform='scale(1.2) rotate(5deg)'" onmouseout="this.style.transform='scale(1) rotate(0)'" />
-</div>
-
-</div>
-
----
-
-## 📊 GitHub Stats & Metrics
-
-<div style="display:flex; gap:20px; justify-content:center; flex-wrap:wrap;">
-  <img src="https://github-readme-stats.vercel.app/api?username=sethogieva&show_icons=true&bg_color=000000&title_color=00FF41&text_color=00FF41&icon_color=00FF41&border_color=00FF41&border_radius=8" style="border-radius:8px; box-shadow:0 4px 20px rgba(0,255,65,0.2);" />
-</div>
+<p align="right">
+  <a href="https://sethogieva.com"><img src="./assets/signature.png" alt="sethogieva" height="56" /></a>
+</p>
