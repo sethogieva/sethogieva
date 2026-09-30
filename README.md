@@ -75,7 +75,11 @@ const seth = {
 ### Writing
 
 <ul>
-<!-- BLOG-POST-LIST:START -->
+<!-- BLOG-POST-LIST:START --><li><a href="https://medium.com/@ogievaseth/from-token-costs-to-roi-eb9c23855326?source=rss-c2478155f6f3------2">From Token Costs to ROI</a> <sub>· Jan 2026</sub></li>
+<li><a href="https://medium.com/@ogievaseth/who-i-help-what-i-do-and-why-its-different-77f8995eec70?source=rss-c2478155f6f3------2">Who I Help, What I Do, and Why It’s Different</a> <sub>· Jul 2025</sub></li>
+<li><a href="https://medium.com/@ogievaseth/pioneering-product-marketing-for-ilias-defense-suite-driving-growth-and-innovation-c22c2f56ac42?source=rss-c2478155f6f3------2">Pioneering Product Marketing for ILIAS Defense Suite: Driving Growth and Innovation</a> <sub>· Mar 2025</sub></li>
+<li><a href="https://medium.com/@ogievaseth/the-one-man-agency-how-i-bring-a-marketing-dream-team-to-drive-b2b-saas-growth-f278defab530?source=rss-c2478155f6f3------2">The One-Man Agency: How I Bring a Marketing Dream Team to Drive B2B SaaS Growth</a> <sub>· Dec 2024</sub></li>
+<li><a href="https://medium.com/@ogievaseth/facing-the-market-where-do-we-go-from-here-b275462d6783?source=rss-c2478155f6f3------2">Facing the Market: Where do we go from here?</a> <sub>· Feb 2023</sub></li>
 <!-- BLOG-POST-LIST:END -->
 </ul>
 
